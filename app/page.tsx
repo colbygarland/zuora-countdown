@@ -5,7 +5,7 @@ export default function Home() {
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24))
   return (
     <main className="grid min-h-screen flex-col place-items-center bg-gray-900 p-24 text-gray-200">
-      <div className="grid grid-cols-2">
+      <div className="grid gap-12 lg:grid-cols-2 lg:gap-2">
         <div className="">
           <img className="max-h-[500px] w-9/12" src="/owly-wing-raised-speaking.svg" alt="" />
         </div>
