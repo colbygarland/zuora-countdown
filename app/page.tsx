@@ -1,7 +1,7 @@
 import { Days } from '@/components/Days'
 
 const devConfidenceLevel = 60
-const lastUpdatedAt = 'August 20, 2024'
+const lastUpdatedAt = 'August 22, 2024'
 
 export default function Home() {
   return (
