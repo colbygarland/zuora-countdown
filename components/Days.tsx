@@ -9,7 +9,7 @@ const getDaysUntil = (date: string) => {
 
 export const Days = () => {
   const launchDays = getDaysUntil('2024-12-02')
-  const devDoneDays = getDaysUntil('2024-10-31')
+  const devDoneDays = getDaysUntil('2024-11-01')
   return (
     <div className="mb-10">
       <h2 className="mb-4 text-4xl text-white">{launchDays} days until Phase 1 launch</h2>
